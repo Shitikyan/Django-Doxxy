@@ -4,6 +4,7 @@ from . import views
 
 urlpatterns = [
     path('main/', views.main, name="CMS"),
+    path('', views.main, name="CMS"),
 ]
 
 
